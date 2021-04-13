@@ -2,14 +2,36 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>custom-element demo</title>
+  <title>autosize-textarea demo</title>
 </head>
 <body>
   <script type="module">
-    // import 'https://unpkg.com/@github/custom-element-boilerplate@latest/dist/index.js'
-    import '../dist/index.js'
+    import 'https://unpkg.com/@sonicgarden/autosize-textarea-element@latest/dist/index.js'
+    // import '../dist/index.js'
   </script>
 
-  <autosize-textarea><textarea></textarea></autosize-textarea>
+  <div>
+    <autosize-textarea>
+      <textarea rows="5"></textarea>
+    </autosize-textarea>
+  </div>
+
+  <div>
+    <autosize-textarea>
+      <textarea>1111
+2222
+333
+
+
+444
+555
+666
+777
+
+
+888
+999</textarea>
+    </autosize-textarea>
+  </div>
 </body>
 </html>

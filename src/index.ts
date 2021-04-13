@@ -22,6 +22,9 @@ export class AutosizeTextarea extends HTMLElement {
     this.addEventListener('input', this.fitToContent)
     // NOTE: focus does not bubble
     this.addEventListener('focusin', this.fitToContent)
+
+    // NOTE: wait childNodes
+    window.setTimeout(this.fitToContent, 0)
   }
 
   disconnectedCallback(): void {
