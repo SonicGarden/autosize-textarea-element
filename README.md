@@ -1,21 +1,19 @@
-# &lt;custom-element&gt; element
-
-Boilerplate for creating a custom element.
+# autosize-textarea-element
 
 ## Installation
 
 ```
-$ npm install @github/custom-element-element
+$ npm install @sonicgarden/autosize-textarea-element
 ```
 
 ## Usage
 
 ```js
-import '@github/custom-element-element'
+import '@sonicgarden/autosize-textarea-element'
 ```
 
 ```html
-<custom-element></custom-element>
+<autosize-textarea><textarea></textarea></autosize-textarea>
 ```
 
 ## Browser support
